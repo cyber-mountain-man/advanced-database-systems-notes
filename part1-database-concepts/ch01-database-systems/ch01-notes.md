@@ -106,18 +106,38 @@ See [Database Design Process](../../notes/database-design-stages.md)
 
 ---
 
-## 💻 SQL Practice Files
+## 🧪 Practice Datasets
 
-The following scripts provide hands-on reinforcement of Chapter 1 concepts:
+Below are the official textbook data files for hands-on SQL practice across different platforms.
 
-- [`01_01_Views.sql`](./sql/01_01_Views.sql):  
-  Create views for supplier contact data using `JOIN`s between `Suppliers`, `People`, and `SupplierCategories`.
+### 💽 SQL Server
 
-- [`01_02_ExploreViews.sql`](./sql/01_02_ExploreViews.sql):  
-  Use T-SQL system views (`sys.objects`, `sys.sql_modules`) and `sp_helptext` to explore and inspect view definitions.
+- [`Ch01_Text_SQL.txt`](./sql/sqlserver/Ch01_Text_SQL.txt):  
+  Schema and sample data for `EMPLOYEE`, `SKILL`, `CERTIFIED`, `CUSTOMER`.
 
-- [`01_03_Schemabinding.sql`](./sql/01_03_Schemabinding.sql):  
-  Demonstrates creating and updating a view, and shows how `WITH SCHEMABINDING` protects views from table changes.
+- [`Ch01_Problems_SQL.txt`](./sql/sqlserver/Ch01_Problems_SQL.txt):  
+  Exercises on project assignments, classroom scheduling, and employee skill relationships.
 
-- [`01_04_ViewIndex.sql`](./sql/01_04_ViewIndex.sql):  
-  Builds an indexed view with `WITH SCHEMABINDING` and adds a unique clustered index to enhance performance on joined queries.
+### 🐬 MySQL
+
+- [`Ch01_Text_MySQL.txt`](./sql/mysql/Ch01_Text_MySQL.txt):  
+  MySQL-compatible version of the Chapter 1 schema and inserts.
+
+- [`Ch01_Problems_MySQL.txt`](./sql/mysql/Ch01_Problems_MySQL.txt):  
+  Equivalent problem scripts for MySQL practice.
+
+### 🍊 Oracle
+
+- [`Ch01_Text_ORA.txt`](./sql/oracle/Ch01_Text_ORA.txt)  
+- [`Ch01_Problems_ORA.txt`](./sql/oracle/Ch01_Problems_ORA.txt)  
+
+Same schema and exercises formatted for Oracle environments.
+
+### 🗃️ Microsoft Access (Bonus)
+
+- `Ch01_Text.mdb`: Full Chapter 1 schema for MS Access
+- `Ch01_Problems.mdb`: Matching problem database
+
+> 📎 These are optional and may require Microsoft Access or an Access-compatible viewer.
+
+> 📌 Tip: Choose the version that matches your current environment (SQL Server, MySQL, or Oracle).
