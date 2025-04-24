@@ -1,0 +1,23 @@
+# 💻 VS Code Settings
+.vscode/
+*.code-workspace
+
+# ⚙️ System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 🛠 Dev artifacts
+*.log
+*.tmp
+*.bak
+
+# 🔐 Credentials and secrets
+.env
+*.sqlite
+*.db
+
+# 📦 Dependency folders (in case of scripting extensions)
+node_modules/
+vendor/
+__pycache__/
