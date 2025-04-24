@@ -71,7 +71,7 @@ This repo includes DBMS-specific folders to practice SQL and advanced database c
 **Guillermo Morrison**  
 Cybersecurity & Information Systems Graduate Student  
 GitHub: [CyberMountainMan](https://github.com/CyberMountainMan)  
-Email: morrison.guillermo@gmail.com
+
 
 ---
 
