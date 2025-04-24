@@ -103,3 +103,21 @@ See [Database Design Process](../../notes/database-design-stages.md)
 
 - [Difference between File System and DBMS – GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-file-system-and-dbms/)
 - Chapter 1 Slides/Diagrams (TBD)
+
+---
+
+## 💻 SQL Practice Files
+
+The following scripts provide hands-on reinforcement of Chapter 1 concepts:
+
+- [`01_01_Views.sql`](./sql/01_01_Views.sql):  
+  Create views for supplier contact data using `JOIN`s between `Suppliers`, `People`, and `SupplierCategories`.
+
+- [`01_02_ExploreViews.sql`](./sql/01_02_ExploreViews.sql):  
+  Use T-SQL system views (`sys.objects`, `sys.sql_modules`) and `sp_helptext` to explore and inspect view definitions.
+
+- [`01_03_Schemabinding.sql`](./sql/01_03_Schemabinding.sql):  
+  Demonstrates creating and updating a view, and shows how `WITH SCHEMABINDING` protects views from table changes.
+
+- [`01_04_ViewIndex.sql`](./sql/01_04_ViewIndex.sql):  
+  Builds an indexed view with `WITH SCHEMABINDING` and adds a unique clustered index to enhance performance on joined queries.
