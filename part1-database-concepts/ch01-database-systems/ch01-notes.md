@@ -101,5 +101,5 @@ See [Database Design Process](../../notes/database-design-stages.md)
 
 ## 🔗 Related Resources
 
-- [SQL vs File Systems – Real Life Example](https://www.geeksforgeeks.org/difference-between-dbms-and-file-system/)
+- [Difference between File System and DBMS – GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-file-system-and-dbms/)
 - Chapter 1 Slides/Diagrams (TBD)
