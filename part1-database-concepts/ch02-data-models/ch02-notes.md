@@ -99,3 +99,35 @@
 
 - [Data Models – GeeksforGeeks](https://www.geeksforgeeks.org/data-models-in-dbms/)
 - ER Diagrams (TBD)
+
+---
+
+## 🧪 Practice Datasets (Organized by SQL Platform)
+
+These datasets are used throughout Chapter 2 to support data modeling and normalization practice.
+
+### 🐬 MySQL
+- [`Ch02_Dealco_MySQL.txt`](./datasets/mysql/Ch02_Dealco_MySQL.txt)
+- [`Ch02_InsureCo_MySQL.txt`](./datasets/mysql/Ch02_InsureCo_MySQL.txt)
+- [`Ch02_SaleCo_MySQL.txt`](./datasets/mysql/Ch02_SaleCo_MySQL.txt)
+- [`Ch02_TinyCollege_MySQL.txt`](./datasets/mysql/Ch02_TinyCollege_MySQL.txt)
+
+### 🍊 Oracle
+- [`Ch02_Dealco_ORA.txt`](./datasets/oracle/Ch02_Dealco_ORA.txt)
+- [`Ch02_InsureCo_ORA.txt`](./datasets/oracle/Ch02_InsureCo_ORA.txt)
+- [`Ch02_SaleCo_ORA.txt`](./datasets/oracle/Ch02_SaleCo_ORA.txt)
+- [`Ch02_TinyCollege_ORA.txt`](./datasets/oracle/Ch02_TinyCollege_ORA.txt)
+
+### 🧠 SQL Server
+- [`Ch02_Dealco_SQL.txt`](./datasets/sqlserver/Ch02_Dealco_SQL.txt)
+- [`Ch02_InsureCo_SQL.txt`](./datasets/sqlserver/Ch02_InsureCo_SQL.txt)
+- [`Ch02_SaleCo_SQL.txt`](./datasets/sqlserver/Ch02_SaleCo_SQL.txt)
+- [`Ch02_TinyCollege_SQL.txt`](./datasets/sqlserver/Ch02_TinyCollege_SQL.txt)
+
+### 🗃️ Microsoft Access
+- `Ch02_DealCo.mdb`
+- `Ch02_InsureCo.mdb`
+- `Ch02_SaleCo.mdb`
+- `Ch02_TinyCollege.mdb`
+
+> 💡 Each dataset includes similar table structures and can be used to explore normalization, relationships, and modeling in your DBMS of choice.
