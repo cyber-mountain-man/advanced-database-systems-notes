@@ -1,0 +1,14 @@
+-- 10 - INSERT, UPDATE, DELETE Basics (TinyCollege)
+
+-- Insert a new student
+INSERT INTO STUDENT (STU_NUM, STU_LNAME, STU_FNAME, STU_INIT, STU_DOB, STU_HRS, STU_CLASS, STU_GPA, STU_TRANSFER, DEPT_CODE, STU_PHONE, PROF_NUM)
+VALUES (400001, 'Test', 'Student', 'X', '2002-01-01', 0, 'Fr', 4.0, 0, 'CIS', '9999', 222);
+
+-- Update the new student's major
+UPDATE STUDENT
+SET DEPT_CODE = 'MATH'
+WHERE STU_NUM = 400001;
+
+-- Delete the new student
+DELETE FROM STUDENT
+WHERE STU_NUM = 400001;

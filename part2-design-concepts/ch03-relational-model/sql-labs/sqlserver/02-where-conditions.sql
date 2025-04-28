@@ -1,0 +1,11 @@
+-- 02 - WHERE Clause Filtering (Tiny College)
+
+-- Students with GPA above 3.0
+SELECT STU_NUM, STU_LNAME, STU_FNAME, STU_GPA
+FROM STUDENT
+WHERE STU_GPA > 3.0;
+
+-- Professors with highest degree of Ph.d.
+SELECT EMP_NUM, EMP_LNAME, EMP_FNAME
+FROM EMPLOYEE
+WHERE EMP_NUM IN(SELECT EMP_NUM FROM PROFFESOR WHERE PROF_HIGH_DEGREE = 'Ph.D.');

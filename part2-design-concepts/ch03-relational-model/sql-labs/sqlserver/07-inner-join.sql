@@ -1,0 +1,6 @@
+-- 07 - INNER JOIN Example (TinyCollege)
+
+-- List all classes with their course descriptions
+SELECT CLASS.CLASS_CODE, COURSE.CRS_DESCRIPTION
+FROM CLASS
+INNER JOIN COURSE ON CLASS.CRS_CODE = COURSE.CRS_CODE;
